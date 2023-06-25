@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Mulish", sans-serif;
+    cursor: default;
+}
+*::-webkit-scrollbar {
+    background-color: var(--bgColor);
+}
+*::-webkit-scrollbar-thumb {
+    background-color: #e2e2e2;
+    width: 10px;
+}
+div {
+    white-space: pre-wrap;
+}
+
+/* //////////////////////////// */
+.webbezSite-back {
+    width: 1400px;
+    padding: 20px;
+    padding-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* //////////////////////////// */
+
+.Slider-back {
+    /* position: relative; */
+    width: 1360px;
+    height: 984px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.Slider-images-img {
+    position: relative;
+    flex: 1;
+}
+.Slider-images-img-info {
+    position: absolute;
+    left: 60px;
+    bottom: 85px;
+}
+.Slider-images-img-name,
+.Slider-images-img-text {
+    width: 780px;
+    color: white;
+}
+.Slider-images-img-name {
+    font-size: 60px;
+    line-height: 54px;
+    margin-bottom: 30px;
+}
+.Slider-images-img-text {
+    font-size: 24px;
+    line-height: 30px;
+}
+.Slider-handlerItem {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+    bottom: 20px;
+    height: 5px;
+    width: 110px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+.Slider-handlerItemSelected {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/* //////////////////////////// */
+.InfoBlock-back,
+.InfoBlockWithImg-back {
+    display: flex;
+    width: 100%;
+    margin-top: 160px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.InfoBlock-item {
+    height: inherit;
+    flex: 1;
+}
+.InfoBlock-item-image {
+    height: 70px;
+    width: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.itemImg1 {
+    background-image: url("../../public/images/gamePad.svg");
+}
+.itemImg2 {
+    background-image: url("../../public/images/pdf.svg");
+}
+.itemImg3 {
+    background-image: url("../../public/images/human.svg");
+}
+.InfoBlock-item-name {
+    margin-top: 30px;
+    font-size: 40px;
+    line-height: 36px;
+    font-weight: 700;
+}
+.InfoBlock-item-text {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+/* //////////////////////////// */
+.InfoBlockWithImg-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: inherit;
+    flex: 1;
+}
+.InfoBlockWithImg-item-image {
+    border-radius: 10px;
+}
+.InfoBlockWithImg-item-name {
+    font-size: 40px;
+    line-height: 36px;
+    font-weight: 700;
+}
+.InfoBlockWithImg-item-text {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+/* //////////////////////////// */
+.InfoBlockTariffs-blockName {
+    width: 100%;
+    margin-top: 160px;
+    padding-left: 60px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 54px;
+}
+.InfoBlockTariffs-back {
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 610px;
+    margin-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.InfoBlockTariffs-item {
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    flex: 1;
+    padding-left: 60px;
+}
+.imgWeb,
+.imgServer {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.imgWeb {
+    background-image: url("../../public/images/web.jpg");
+    margin-right: 10px;
+}
+.imgServer {
+    background-image: url("../../public/images/server.jpg");
+    margin-left: 10px;
+}
+.InfoBlockTariffs-item-name {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 60px;
+}
+.fs-24 {
+    font-size: 24px;
+    line-height: 30px;
+}
+.InfoBlockTariffs-item-price {
+    margin-top: 30px;
+}
+.InfoBlockTariffs-item-text {
+    margin-top: 30px;
+}
+.InfoBlockTariffs-item-target {
+    margin-top: 60px;
+}
+
+/* //////////////////////////// */
+.fs-14 {
+    font-size: 14px;
+    line-height: 18px;
+}
+.fs-12 {
+    font-size: 12px;
+    line-height: 15px;
+}
+.Footer {
+    width: 100%;
+    background-color: rgba(18, 28, 47, 1);
+    color: white;
+    margin-top: 160px;
+    padding: 30px 20px 30px 20px;
+}
+.Footer-line-top {
+    display: flex;
+    justify-content: space-between;
+}
+.Footer-line-link {
+    margin-top: 60px;
+}
+
+/* //////////////////////////// */
+
+.Documentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100vh - 20px);
+    width: 100%;
+    padding: 60px 60px 0 60px;
+}
+.Documentation-name {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 54px;
+}
+.Documentation-links {
+    margin-top: 60px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Documentation-links-link {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Documentation-links-link:hover {
+    text-decoration: underline;
+}
